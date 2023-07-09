@@ -12,10 +12,9 @@ Description:
 The application uses the Platzi Fake Store API tofetch in the products needed by the buisness/customer(s). With a simplistic user friendly interface, Vend-R-us strives to make it easy for businesses and customers to access readily available products with ease.
 
 Code languages used:
-I.JavaScript
-II. HTML
-III. CSS
+>JavaScript
+>HTML
+>CSS
 
-Author:
-
+Author: 
 Raymond Ong'ang'a
