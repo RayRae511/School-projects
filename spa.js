@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    let products = document.querySelector('.products');
+    let products = document.querySelector('.products');//adding a variable 'products' to the class of '.products' 
     async function fetchProducts(url) {
-        try {
+        try { //in this one...I used the try statement
             let data = await fetch(url);
-            let response = await data.json();
+            let response = await data.json();//also uesd the 'await' statment instead of .fetch() and .then()
 
             for (let i = 0; i < response.length; i++) {
                 let description = response[i].description;
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
        </div>
        `;
             }
-        } catch (err) {
+        } catch (err) {//when the app runs into an error, .catch() will notify the user if it runs in an error(understand this was not easy for me to understand...i dont even know anything quite well)
             console.log(err);
         }
     }
