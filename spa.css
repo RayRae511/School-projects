@@ -7,6 +7,14 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+    background-color: gray;
+}
+nav{
+    margin: 10px;
+    padding: 15px ;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }
 .heading{
     font-size: 80px;
@@ -37,7 +45,6 @@ body {
 }
 
 .product {
-    background: #9c81eb;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
